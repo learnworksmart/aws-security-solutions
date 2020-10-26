@@ -1,0 +1,10 @@
+No.,resource name,resource type,status
+1,ec2-inspec-scan,AWS::SSM::Association,{'Success': 2}
+2,EC2_INSTANCE_MANAGED_BY_SSM,AWS::Config::ConfigRule,ACTIVE
+3,S3_BUCKET_VERSIONING_ENABLED,AWS::Config::ConfigRule,ACTIVE
+4,CLOUDWATCH_LOG_GROUP_ENCRYPTED,AWS::Config::ConfigRule,ACTIVE
+5,LAMBDA_FUNCTION_PUBLIC_ACCESS_PROHIBITED,AWS::Config::ConfigRule,ACTIVE
+6,ec2-inspec-scan,AWS::Events::Rule,NOT_FOUND
+7,monthly-alert,AWS::Events::Rule,NOT_FOUND
+8,aws-config,AWS::Events::Rule,NOT_FOUND
+9,extract-iam,AWS::Events::Rule,NOT_FOUND

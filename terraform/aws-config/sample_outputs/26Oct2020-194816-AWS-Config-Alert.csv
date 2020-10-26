@@ -1,0 +1,9 @@
+No.,ConfigRuleName,ResourceType,ResourceId
+1,EC2_INSTANCE_MANAGED_BY_SSM,AWS::EC2::Instance,i-08fb7ae532171e2f6
+2,EC2_INSTANCE_MANAGED_BY_SSM,AWS::EC2::Instance,i-09b0604bc839f90b4
+3,EC2_INSTANCE_MANAGED_BY_SSM,AWS::EC2::Instance,i-0b2d288779c9ff43d
+4,S3_BUCKET_VERSIONING_ENABLED,AWS::S3::Bucket,base-store-outputs
+5,S3_BUCKET_VERSIONING_ENABLED,AWS::S3::Bucket,rbs-terraform-state
+6,CLOUDWATCH_LOG_GROUP_ENCRYPTED,AWS::Logs::LogGroup,/aws/lambda/aws-config
+7,CLOUDWATCH_LOG_GROUP_ENCRYPTED,AWS::Logs::LogGroup,/aws/lambda/ec2-inspec-scan
+8,CLOUDWATCH_LOG_GROUP_ENCRYPTED,AWS::Logs::LogGroup,/aws/lambda/monthly-alert

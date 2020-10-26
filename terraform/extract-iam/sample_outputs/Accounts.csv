@@ -1,0 +1,2 @@
+PathPrefix,UserName,UserId,Arn,CreateDate,GroupList,AttachedManagedPolicies,Tags
+/,learnworksmart,AIDAVLLQWRIPZEAL5ZTV4,arn:aws:iam::367992932895:user/learnworksmart,2020-09-26 02:51:09+00:00,[],"[{'PolicyName': 'AWSConfigRoleForOrganizations', 'PolicyArn': 'arn:aws:iam::aws:policy/service-role/AWSConfigRoleForOrganizations'}, {'PolicyName': 'AdministratorAccess', 'PolicyArn': 'arn:aws:iam::aws:policy/AdministratorAccess'}]","[{'Key': 'Name', 'Value': 'learnworksmart'}]"
