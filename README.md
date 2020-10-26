@@ -6,9 +6,9 @@ This repository consists of security-related solutions for our AWS environment, 
   1. The `aws-config` project enabled selected AWS Config Rules and extract non-compliant resources. 
   1. The `extract-iam` project extracts IAM resources, such as user accounts, roles, groups, and policies, to support assessment such as access reviews.
   1. The `monitor` project search for selected AWS resources that are responsible for triggering the above projects. Such resources include:
-    * System Manager Association
-    * CloudWatch Rule
-    * Config Rule
+      * System Manager Association
+      * CloudWatch Rule
+      * Config Rule
 
 ## How to Deploy?
 
